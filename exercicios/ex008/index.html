@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+    <style>
+        mark{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Principais formatações</h1>
+    <h2>Negrito/destaque</h2>
+    <p>Nesta frase temos um <B>termo em negrito</B>, usando a tag B (não semântica)</p>
+    <p>Nesta frase temos um <strong>termo em destaque</strong>,usando a tag STRONG (semântica)</p>
+    <p>Nesta frase temos um <i>termo em itálico</i>, usando a tag I (não semântica)</p>
+    <p>Nesta frase temos um <em>termo em ênfase</em>, usando a tag EM (semântica)</p>
+    <h1>Texto marcado</h1>
+    <p>Podemos criar também um <mark>texto marcado</mark> usando a tag MARK o texto fica marcado em amarelo</p>
+    <p>Podemos criar também um <mark style="background-color: green;">texto marcado de outra cor</mark> usando a tag MARK com STYLE do CSS posso colocara marcação na cor que eu quiser</p>
+    <p><strong>Coloquei uma tag de CSS abaixo da tag tittle no head do código, e essa tag
+         irá colocar todas as tags mark que estiver no código sem a formatação CSS na
+          cor que eu definir neste style, neste caso coloquei a cor azul que vai colocar a marcação que 
+        estava em amarelo na cor azul, o mark em verde continua verde pois coloquei outro style nele em verde.( <I>Será útil quando tiver muitas marcações no código</I> )</strong></p>
+        <h2>Texto grande e pequeno</h2>
+        <p>Estamos criando um <big>Texto grande</big> e um <small>texto pequeno</small> nesse paragafo</p>
+        <h2>Texto deletado</h2>
+        <p>Podemos marcar <del>um texto como excluído</del> para indicar que el deve ser lido, mas não considerado</p>
+        <h2>Texto inserido</h2>
+        <p>Podemos marcar <ins>um txto como inseido </ins>para dar uma ênfase e indcar que ele foi adicionado depois. </p>
+        <p>Existe também o <u>sublinhado</u> com a tag U (não semântica)</p>
+        <h2>Texto sobrescrito</h2>
+        <p>Para inseri coisas do tipo tabela periódica e outros, exemplo: x<sup>20</sup>+3 , utilizo a tag SUP</p>
+        <H2>Texto subscrito</H2>
+        <p>Para inserir coisas do tipo H<sub>2</sub>O , utilizo a tag SUB</p>
+
+    </body>
+</html>
